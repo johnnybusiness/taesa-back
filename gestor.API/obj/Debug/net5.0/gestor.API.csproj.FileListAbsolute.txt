@@ -1,0 +1,294 @@
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\appsettings.Development.json
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\appsettings.json
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\gestor.API.exe
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\gestor.API.deps.json
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\gestor.API.runtimeconfig.json
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\gestor.API.runtimeconfig.dev.json
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\gestor.API.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\ref\gestor.API.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\gestor.API.pdb
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.csprojAssemblyReference.cache
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.AssemblyInfoInputs.cache
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.AssemblyInfo.cs
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.csproj.CoreCompileInputs.cache
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.MvcApplicationPartsAssemblyInfo.cs
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.MvcApplicationPartsAssemblyInfo.cache
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\staticwebassets\gestor.API.StaticWebAssets.Manifest.cache
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\staticwebassets\gestor.API.StaticWebAssets.xml
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\scopedcss\bundle\gestor.API.styles.css
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.RazorTargetAssemblyInfo.cache
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.csproj.CopyComplete
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.dll
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\ref\gestor.API.dll
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.pdb
+E:\projeto de crud ytb\back\src\gestor.API\obj\Debug\net5.0\gestor.API.genruntimeconfig.cache
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\EntityFramework.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\System.CodeDom.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Humanizer.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\projeto de crud ytb\back\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\projeto de crud ytb\back\src\Gestor.API\bin\Debug\net5.0\GestorGaleria.Application.dll
+E:\projeto de crud ytb\back\src\Gestor.API\bin\Debug\net5.0\GestorGaleria.Domain.dll
+E:\projeto de crud ytb\back\src\Gestor.API\bin\Debug\net5.0\GestorGaleria.Persistence.dll
+E:\projeto de crud ytb\back\src\Gestor.API\bin\Debug\net5.0\GestorGaleria.Application.pdb
+E:\projeto de crud ytb\back\src\Gestor.API\bin\Debug\net5.0\GestorGaleria.Domain.pdb
+E:\projeto de crud ytb\back\src\Gestor.API\bin\Debug\net5.0\GestorGaleria.Persistence.pdb
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\appsettings.Development.json
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\appsettings.json
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\gestor.API.exe
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\gestor.API.deps.json
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\gestor.API.runtimeconfig.json
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\gestor.API.runtimeconfig.dev.json
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\gestor.API.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\ref\gestor.API.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\gestor.API.pdb
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\EntityFramework.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Humanizer.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\System.CodeDom.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Application.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Domain.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Persistence.dll
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Application.pdb
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Domain.pdb
+E:\Projeto Taesa Official\back\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Persistence.pdb
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.csprojAssemblyReference.cache
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.AssemblyInfoInputs.cache
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.AssemblyInfo.cs
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.csproj.CoreCompileInputs.cache
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.MvcApplicationPartsAssemblyInfo.cs
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.MvcApplicationPartsAssemblyInfo.cache
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\staticwebassets\gestor.API.StaticWebAssets.Manifest.cache
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\staticwebassets\gestor.API.StaticWebAssets.xml
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\scopedcss\bundle\gestor.API.styles.css
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.RazorTargetAssemblyInfo.cache
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.csproj.CopyComplete
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.dll
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\ref\gestor.API.dll
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.pdb
+E:\Projeto Taesa Official\back\src\gestor.API\obj\Debug\net5.0\gestor.API.genruntimeconfig.cache
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\ref\gestor.API.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.pdb
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\appsettings.Development.json
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\appsettings.json
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\gestor.API.exe
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\gestor.API.deps.json
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\gestor.API.runtimeconfig.json
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\gestor.API.runtimeconfig.dev.json
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\gestor.API.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\ref\gestor.API.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\gestor.API.pdb
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\EntityFramework.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Humanizer.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\System.CodeDom.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Application.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Domain.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Persistence.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Application.pdb
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Domain.pdb
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\GestorGaleria.Persistence.pdb
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.csprojAssemblyReference.cache
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.AssemblyInfoInputs.cache
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.AssemblyInfo.cs
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.csproj.CoreCompileInputs.cache
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.MvcApplicationPartsAssemblyInfo.cs
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.MvcApplicationPartsAssemblyInfo.cache
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\staticwebassets\gestor.API.StaticWebAssets.Manifest.cache
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\staticwebassets\gestor.API.StaticWebAssets.xml
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\scopedcss\bundle\gestor.API.styles.css
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.RazorTargetAssemblyInfo.cache
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.csproj.CopyComplete
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\obj\Debug\net5.0\gestor.API.genruntimeconfig.cache
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll

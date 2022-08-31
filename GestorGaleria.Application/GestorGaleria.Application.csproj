@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestorGaleria.Domain\GestorGaleria.Domain.csproj" />
+    
+    <ProjectReference Include="..\GestorGaleria.Persistence\GestorGaleria.Persistence.csproj" />
+  
+  </ItemGroup>
+</Project>

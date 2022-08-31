@@ -1,0 +1,51 @@
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Application.deps.json
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Application.dll
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\bin\Debug\net5.0\ref\GestorGaleria.Application.dll
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Application.pdb
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.csprojAssemblyReference.cache
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.AssemblyInfoInputs.cache
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.AssemblyInfo.cs
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.csproj.CoreCompileInputs.cache
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.dll
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\obj\Debug\net5.0\ref\GestorGaleria.Application.dll
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.pdb
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Domain.dll
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Persistence.dll
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Domain.pdb
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Persistence.pdb
+E:\projeto de crud ytb\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.csproj.CopyComplete
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Application.deps.json
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Application.dll
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\bin\Debug\net5.0\ref\GestorGaleria.Application.dll
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Application.pdb
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Domain.dll
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Persistence.dll
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Domain.pdb
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Persistence.pdb
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.csprojAssemblyReference.cache
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.AssemblyInfoInputs.cache
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.AssemblyInfo.cs
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.csproj.CoreCompileInputs.cache
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.csproj.CopyComplete
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.dll
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\obj\Debug\net5.0\ref\GestorGaleria.Application.dll
+E:\Projeto Taesa Official\back\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.pdb
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.dll
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\obj\Debug\net5.0\ref\GestorGaleria.Application.dll
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.pdb
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Application.deps.json
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Application.dll
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\bin\Debug\net5.0\ref\GestorGaleria.Application.dll
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Application.pdb
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Domain.dll
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Persistence.dll
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Domain.pdb
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\bin\Debug\net5.0\GestorGaleria.Persistence.pdb
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.csprojAssemblyReference.cache
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.AssemblyInfoInputs.cache
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.AssemblyInfo.cs
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.csproj.CoreCompileInputs.cache
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Application\obj\Debug\net5.0\GestorGaleria.Application.csproj.CopyComplete
