@@ -25,7 +25,8 @@ namespace GestorGaleria.Persistence.Contratos
 
         // Galeria
                     // !IMPORTANTE!
-        Task<Galeria[]> GetAllGaleriasAsync(string concessao);
+        // Task<Galeria[]> GetAllGaleriasAsync(string concessao);
+        Task<Galeria[]> GetAllGaleriasAsync();
         Task<Galeria> GetGaleriasByIdAsync(int id);
     }
 }

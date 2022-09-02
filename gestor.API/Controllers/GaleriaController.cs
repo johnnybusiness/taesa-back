@@ -5,7 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using gestor.API;
 using gestor.Persistance;
+using GestorGaleria.Application.Contratos;
 using GestorGaleria.Domain;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -15,57 +17,129 @@ namespace gestor.API.Controllers
     [Route("api/[controller]")]
     public class GaleriaController : ControllerBase
     {
+        private readonly IGaleriaService _galeriaService;
+
         private readonly DataContext _context;
         
-
-        public GaleriaController(DataContext context)
-        {  
+        public GaleriaController(IGaleriaService galeriaService, DataContext context)
+        {
+            _galeriaService = galeriaService;
             _context = context;
         }
+        
+
+          /*  private readonly DataContext _context;
+        
+
+         public GaleriaController(DataContext context)
+        {  
+            _context = context;
+        }     */
 
         [HttpGet]
-        public IEnumerable<Galeria> Get()
+        public async Task<IActionResult> Get()
         {
-            return _context.Galerias;
+            
+             try {
+                // var galerias = await _galeriaService.GetAllGaleriasAsync();
+                var galerias = _context.Galerias.ToArray();
+                if(galerias == null) return NotFound("Nenhuma galeria encontrada");
+
+                return Ok(galerias);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco de dados falhou GET. {ex.Message}");
+            }
+
+             /* return _context.Galerias;  */
              
         }
-        //
+        
+
          [HttpGet("{id}")]
-        public Galeria GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            return _context.Galerias.FirstOrDefault(galeria => galeria.Id == id);
-             
+            try {
+            //    var galeria = await _galeriaService.GetGaleriaByIdAsync(id);
+                  var galeria =  _context.Galerias.Where(g => g.Id == id).First();
+                if(galeria == null) return NoContent();
+
+                return Ok(galeria);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco de dados falhou. {ex.Message}");
+            }
+            // return _context.Galerias.FirstOrDefault(galeria => galeria.Id == id); 
         }
         
 
         [HttpPost]
-        public IActionResult Post(Galeria galeria)
+        public async Task<IActionResult> Post(Galeria model)
         {
-            // return "value";
-            _context.Galerias.Add(galeria);
+            try {
+                var galeria = await _galeriaService.AddGaleria(model);
+                if(galeria == null) return BadRequest("Galeria não cadastrada");
+
+                return Ok(galeria);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Erro ao tentar adicionar galeria. Erro {ex.Message}");
+            }
+
+            /* _context.Galerias.Add(galeria);
             _context.SaveChanges();
              
-            return Ok(galeria);
+            return Ok(galeria); */
              
         }
 
-        [HttpPut]
-        public IActionResult Put(Galeria galeria)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, Galeria model)
         {
-            _context.Galerias.Update(galeria);
+            try {
+            //    var galeria =  _context.Galerias.Where(g => g.Id == id).First();
+                var galeria =  _galeriaService.UpdateGaleria(id, model);
+                if(galeria == null) return BadRequest("Galeria não cadastrada");
+
+                return Ok(galeria);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $" Erro: {ex.Message}");
+            }
+
+
+            /* _context.Galerias.Update(galeria);
             _context.SaveChanges();
              
-            return Ok(galeria);
+            return Ok(galeria); */
         }
         
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var galeria = _context.Galerias.FirstOrDefault(galeria => galeria.Id == id);
+
+             try
+              {
+                return await _galeriaService.DeleteGaleria(id) ?
+                 Ok("Galeria deletada") :
+                BadRequest("Galeria não deletada");
+                
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco de dados falhou. {ex.Message}");
+            }
+
+
+            /* var galeria = _context.Galerias.FirstOrDefault(galeria => galeria.Id == id);
             _context.Galerias.Remove(galeria);
             _context.SaveChanges();
-            return Ok(galeria);
+            return Ok(galeria); */
         }
     }
 }

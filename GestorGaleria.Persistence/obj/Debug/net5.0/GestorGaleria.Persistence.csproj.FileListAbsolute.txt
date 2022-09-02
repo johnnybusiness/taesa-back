@@ -34,7 +34,6 @@ E:\Projeto Taesa Official\back\src\GestorGaleria.Persistence\obj\Debug\net5.0\Ge
 E:\Projeto Taesa Official\back\src\GestorGaleria.Persistence\obj\Debug\net5.0\ref\GestorGaleria.Persistence.dll
 E:\Projeto Taesa Official\back\src\GestorGaleria.Persistence\obj\Debug\net5.0\GestorGaleria.Persistence.pdb
 E:\Projeto Taesa Official\back\src\GestorGaleria.Persistence\obj\Debug\net5.0\GestorGaleria.Persistence.genruntimeconfig.cache
-E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\obj\Debug\net5.0\GestorGaleria.Persistence.csprojAssemblyReference.cache
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\obj\Debug\net5.0\GestorGaleria.Persistence.GeneratedMSBuildEditorConfig.editorconfig
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\obj\Debug\net5.0\GestorGaleria.Persistence.AssemblyInfoInputs.cache
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\obj\Debug\net5.0\GestorGaleria.Persistence.AssemblyInfo.cs
@@ -46,9 +45,10 @@ E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\bin\Debug\net
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\bin\Debug\net5.0\GestorGaleria.Persistence.runtimeconfig.json
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\bin\Debug\net5.0\GestorGaleria.Persistence.runtimeconfig.dev.json
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\bin\Debug\net5.0\GestorGaleria.Persistence.dll
-E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\bin\Debug\net5.0\ref\GestorGaleria.Persistence.dll
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\bin\Debug\net5.0\GestorGaleria.Persistence.pdb
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\bin\Debug\net5.0\GestorGaleria.Domain.dll
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\bin\Debug\net5.0\GestorGaleria.Domain.pdb
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\obj\Debug\net5.0\GestorGaleria.Persistence.csproj.CopyComplete
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\obj\Debug\net5.0\GestorGaleria.Persistence.genruntimeconfig.cache
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\bin\Debug\net5.0\ref\GestorGaleria.Persistence.dll
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Persistence\obj\Debug\net5.0\GestorGaleria.Persistence.csprojAssemblyReference.cache

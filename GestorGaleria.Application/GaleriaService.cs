@@ -33,17 +33,17 @@ namespace GestorGaleria.Application
             }
         }
 
-         public async Task<Galeria> UpdateGaleria(int Id, Galeria model)
+         public async Task<Galeria> UpdateGaleria(int id, Galeria model)
         {
             try {
-                var galeria = await _galeriaPersistence.GetGaleriasByIdAsync(Id);
+                var galeria = await _galeriaPersistence.GetGaleriasByIdAsync(id);
                 if(galeria == null) return null;
 
                 model.Id = galeria.Id;
 
                 _geralPersistence.Update<Galeria>(model);
                 if(await _geralPersistence.SaveChangesAsync()){
-                    return await _galeriaPersistence.GetGaleriasByIdAsync(Id);
+                    return await _galeriaPersistence.GetGaleriasByIdAsync(id);
                 }
                 return null;
             }
@@ -52,10 +52,10 @@ namespace GestorGaleria.Application
             }
         }
 
-        public async Task<bool> DeleteGaleria(int Id)
+        public async Task<bool> DeleteGaleria(int id)
         {
              try {
-                var galeria = await _galeriaPersistence.GetGaleriasByIdAsync(Id);
+                var galeria = await _galeriaPersistence.GetGaleriasByIdAsync(id);
                 if(galeria == null) throw new Exception("Galeria não encontrada");
 
 
@@ -68,10 +68,11 @@ namespace GestorGaleria.Application
             }
         }
 
-          public async Task<Galeria[]> GetAllGaleriaAsync(string Concessao)
+          // public async Task<Galeria[]> GetAllGaleriaAsync(string Concessao)
+          public async Task<Galeria[]> GetAllGaleriaAsync()
         {
             try {
-                var galerias = await _galeriaPersistence.GetAllGaleriasAsync(Concessao);
+                var galerias = await _galeriaPersistence.GetAllGaleriasAsync();
                 if(galerias == null) return null;
                 return galerias;
             }
@@ -81,10 +82,10 @@ namespace GestorGaleria.Application
                 throw new Exception(ex.Message);
             }
         }
-            public async Task<Galeria> GetGaleriasByIdAsync(int Id)
+            public async Task<Galeria> GetGaleriasByIdAsync(int id)
         {
             try {
-                var galerias = await _galeriaPersistence.GetGaleriasByIdAsync(Id);
+                var galerias = await _galeriaPersistence.GetGaleriasByIdAsync(id);
                 if(galerias == null) return null;
                 return galerias;
             }
@@ -97,20 +98,27 @@ namespace GestorGaleria.Application
 
 
 //Interface
-        public Task<Galeria> UpdateGaleria(int Id)
+        public Task<Galeria> UpdateGaleria(int id)
         {
             throw new NotImplementedException();
         }
 
-        Task<Galeria> IGaleriaService.DeleteGaleria(int Id)
+       
+
+        public Task<Galeria[]> GetAllGaleriasAsync()
         {
             throw new NotImplementedException();
         }
-// End of interface
 
-      
+        public Task<Galeria> GetGaleriaByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+        // End of interface
 
-        
+
+
+
 
     }
 }

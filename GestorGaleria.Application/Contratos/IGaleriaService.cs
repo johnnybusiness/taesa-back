@@ -10,9 +10,13 @@ namespace GestorGaleria.Application.Contratos
     {
         Task<Galeria> AddGaleria(Galeria model);
 
-        Task<Galeria> UpdateGaleria(int Id);
+        Task<Galeria> UpdateGaleria(int id, Galeria model);
 
-        Task<Galeria> DeleteGaleria(int Id);
+        Task<bool> DeleteGaleria(int id);
+
+        Task<Galeria[]> GetAllGaleriasAsync();
+
+        Task<Galeria> GetGaleriaByIdAsync(int Id);
         
         
     }

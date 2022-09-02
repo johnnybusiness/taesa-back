@@ -24,9 +24,7 @@ E:\Projeto Taesa Official\back\src\GestorGaleria.Domain\obj\Debug\net5.0\ref\Ges
 E:\Projeto Taesa Official\back\src\GestorGaleria.Domain\obj\Debug\net5.0\GestorGaleria.Domain.pdb
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\bin\Debug\net5.0\GestorGaleria.Domain.deps.json
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\bin\Debug\net5.0\GestorGaleria.Domain.dll
-E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\bin\Debug\net5.0\ref\GestorGaleria.Domain.dll
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\bin\Debug\net5.0\GestorGaleria.Domain.pdb
-E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\obj\Debug\net5.0\GestorGaleria.Domain.csprojAssemblyReference.cache
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\obj\Debug\net5.0\GestorGaleria.Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\obj\Debug\net5.0\GestorGaleria.Domain.AssemblyInfoInputs.cache
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\obj\Debug\net5.0\GestorGaleria.Domain.AssemblyInfo.cs
@@ -34,3 +32,5 @@ E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\obj\Debug\net5.0\G
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\obj\Debug\net5.0\GestorGaleria.Domain.dll
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\obj\Debug\net5.0\ref\GestorGaleria.Domain.dll
 E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\obj\Debug\net5.0\GestorGaleria.Domain.pdb
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\bin\Debug\net5.0\ref\GestorGaleria.Domain.dll
+E:\Projeto Taesa Official\back-taesa\src\GestorGaleria.Domain\obj\Debug\net5.0\GestorGaleria.Domain.csprojAssemblyReference.cache

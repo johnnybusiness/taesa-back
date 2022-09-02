@@ -13,6 +13,10 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using gestor.Persistance;
+using GestorGaleria.Application;
+using GestorGaleria.Application.Contratos;
+using GestorGaleria.Persistence.Contratos;
+using GestorGaleria.Persistence;
 
 namespace gestor.API
 {
@@ -32,7 +36,14 @@ namespace gestor.API
                 context => context.UseSqlServer(Configuration.GetConnectionString("Default"))
             
         );
-            services.AddControllers();
+            services.AddControllers()
+                    .AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling =
+                     Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
+            services.AddScoped<IGaleriaService, GaleriaService>();
+            services.AddScoped<IGeralPersistence, GeralPersistence>();
+            services.AddScoped<IGestorGaleriaPersistence, GestorGaleriaPersistence>();
+
             services.AddCors();
             services.AddSwaggerGen(c =>
             {
