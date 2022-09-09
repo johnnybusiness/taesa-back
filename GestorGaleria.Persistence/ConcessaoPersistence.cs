@@ -19,6 +19,12 @@ namespace GestorGaleria.Persistence
 
         //Concessões
 
+
+        public async Task <Concessoes[]> GetAllConcessoesAsync()
+        {
+            return await _context.Concessoes.ToArrayAsync();
+        }
+        
         public async Task<Concessoes[]> GetAllConcessoesByIdAsync(int Id)
         {
             IQueryable<Concessoes> query = _context.Concessoes
@@ -143,9 +149,21 @@ namespace GestorGaleria.Persistence
             throw new NotImplementedException();
         }
 
-        public Task<Galeria[]> GetAllGaleriasAsync(string concessao)
+        public Task<Concessoes[]> GetAllConcessoesAsync(string Nome)
         {
             throw new NotImplementedException();
         }
+
+        public Task<Concessoes> GetConcessoesByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IConcessoesPersistence.GetAllConcessoesAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        // End Interface
     }
 }

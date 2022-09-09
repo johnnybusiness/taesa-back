@@ -46,7 +46,7 @@ namespace gestor.API.Controllers
 
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult Put(Concessoes concessao)
         {
             _context.Concessoes.Update(concessao);

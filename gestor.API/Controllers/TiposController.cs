@@ -46,7 +46,7 @@ namespace gestor.API.Controllers
         }
         
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult Put(Tipos tipos)
         {
             _context.Tipos.Update(tipos);

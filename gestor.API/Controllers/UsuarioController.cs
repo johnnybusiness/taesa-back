@@ -47,7 +47,7 @@ namespace gestor.API.Controllers
         }
         
 
-        [HttpPut]
+        [HttpPut("{id}")]
 
         public IActionResult Put(Usuario usuario)
         {

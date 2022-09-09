@@ -96,15 +96,21 @@ namespace gestor.API.Controllers
              
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, Galeria model)
+        [HttpPut]
+        public async Task<IActionResult> Put(Galeria model)
         {
             try {
-            //    var galeria =  _context.Galerias.Where(g => g.Id == id).First();
-                var galeria =  _galeriaService.UpdateGaleria(id, model);
-                if(galeria == null) return BadRequest("Galeria não cadastrada");
 
-                return Ok(galeria);
+                var galeria =  _context.Galerias.Where(g => g.Id == model.Id).First();
+
+                if(galeria == null) 
+                    return NotFound("Galeria não cadastrada / não existente");
+
+                _context.Galerias.Update(model);
+                _context.SaveChanges();
+                
+
+                return Ok(model);
             }
             catch (Exception ex)
             {

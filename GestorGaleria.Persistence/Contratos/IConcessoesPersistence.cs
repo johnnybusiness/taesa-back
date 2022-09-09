@@ -12,9 +12,8 @@ namespace GestorGaleria.Persistence.Contratos
     {
 
         // Concessões
-        Task<Concessoes[]> GetAllConcessoesByIdAsync(int Id, bool includeGalerias);
-        Task<Concessoes[]> GetAllConcessoesAsync(string Nome, bool includeGalerias); 
-
-    
+        Task<Concessoes[]> GetAllConcessoesAsync(string Nome);
+        Task<Concessoes> GetConcessoesByIdAsync(int id);
+        Task GetAllConcessoesAsync();
     }
 }
