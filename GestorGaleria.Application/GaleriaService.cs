@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using gestor.Application.Dtos;
 using GestorGaleria.Application.Contratos;
 using GestorGaleria.Domain;
 using GestorGaleria.Persistence.Contratos;
@@ -13,15 +15,25 @@ namespace GestorGaleria.Application
 
         private readonly IGeralPersistence _geralPersistence;
         private readonly IGestorGaleriaPersistence _galeriaPersistence;
-        public GaleriaService(IGeralPersistence geralPersistence, IGestorGaleriaPersistence galeriaPersistence)
+        private readonly IMapper _mapper;
+
+        public GaleriaService(IGeralPersistence geralPersistence, 
+                              IGestorGaleriaPersistence galeriaPersistence,
+                             IMapper mapper)
+
+       
         {
             _geralPersistence = geralPersistence;
             _galeriaPersistence = galeriaPersistence;
+            _mapper = mapper;
         }
 
-        public async Task<Galeria> AddGaleria(Galeria model)
+        public async Task<GaleriaDto> AddGaleria(GaleriaDto model)
         {
-            try{
+
+            return null;
+
+            /* try{
                 _geralPersistence.Add<Galeria>(model);
                 if(await _geralPersistence.SaveChangesAsync()){
                     return await _galeriaPersistence.GetGaleriasByIdAsync(model.Id);
@@ -30,18 +42,22 @@ namespace GestorGaleria.Application
             }
             catch(Exception ex){
                 throw new Exception(ex.Message);
-            }
+            } */
         }
 
-         public async Task<Galeria> UpdateGaleria(int id, Galeria model)
+         public async Task<GaleriaDto> UpdateGaleria(int id, GaleriaDto model)
         {
-            try {
+
+            return null;
+
+
+            /* try {
                 var galeria = await _galeriaPersistence.GetGaleriasByIdAsync(id);
                 if(galeria == null) return null;
 
                 model.Id = galeria.Id;
 
-                _geralPersistence.Update<Galeria>(model);
+                _geralPersistence.Update<GaleriaDto>(model);
                 if(await _geralPersistence.SaveChangesAsync()){
                     return await _galeriaPersistence.GetGaleriasByIdAsync(id);
                 }
@@ -49,7 +65,7 @@ namespace GestorGaleria.Application
             }
             catch(Exception ex){
                 throw new Exception(ex.Message);
-            }
+            } */
         }
 
         public async Task<bool> DeleteGaleria(int id)
@@ -62,6 +78,7 @@ namespace GestorGaleria.Application
                 _geralPersistence.Delete<Galeria>(galeria);
                 return await _geralPersistence.SaveChangesAsync();
                 
+                
             }
             catch(Exception ex){
                 throw new Exception(ex.Message);
@@ -69,12 +86,17 @@ namespace GestorGaleria.Application
         }
 
           // public async Task<Galeria[]> GetAllGaleriaAsync(string Concessao)
-          public async Task<Galeria[]> GetAllGaleriaAsync()
+          public async Task<GaleriaDto[]> GetAllGaleriaAsync()
         {
             try {
                 var galerias = await _galeriaPersistence.GetAllGaleriasAsync();
                 if(galerias == null) return null;
-                return galerias;
+
+                
+
+               var resultado = _mapper.Map<GaleriaDto[]>(galerias);
+                
+                return resultado; 
             }
 
             catch(Exception ex)
@@ -82,12 +104,15 @@ namespace GestorGaleria.Application
                 throw new Exception(ex.Message);
             }
         }
-            public async Task<Galeria> GetGaleriasByIdAsync(int id)
+            public async Task<GaleriaDto> GetGaleriasByIdAsync(int id)
         {
             try {
-                var galerias = await _galeriaPersistence.GetGaleriasByIdAsync(id);
-                if(galerias == null) return null;
-                return galerias;
+                var galeria = await _galeriaPersistence.GetGaleriasByIdAsync(id);
+                if(galeria == null) return null;
+
+                var resultado = _mapper.Map<GaleriaDto>(galeria);
+                
+                return resultado;
             }
 
             catch(Exception ex)
@@ -98,7 +123,7 @@ namespace GestorGaleria.Application
 
 
 //Interface
-        public Task<Galeria> UpdateGaleria(int id)
+        public Task<GaleriaDto> UpdateGaleria(int id)
         {
             throw new NotImplementedException();
         }
@@ -110,7 +135,12 @@ namespace GestorGaleria.Application
             throw new NotImplementedException();
         }
 
-        public Task<Galeria> GetGaleriaByIdAsync(int id)
+        public Task<GaleriaDto> GetGaleriaByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<GaleriaDto[]> IGaleriaService.GetAllGaleriasAsync()
         {
             throw new NotImplementedException();
         }

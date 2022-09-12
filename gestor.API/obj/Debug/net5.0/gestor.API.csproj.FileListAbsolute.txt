@@ -296,3 +296,9 @@ E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.A
 E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\AutoMapper.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\Projeto Taesa Official\back-taesa\src\gestor.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

@@ -1,22 +1,20 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using gestor.Application.Dtos;
 using GestorGaleria.Domain;
 
 namespace GestorGaleria.Application.Contratos
 {
     public interface IGaleriaService
     {
-        Task<Galeria> AddGaleria(Galeria model);
+        Task<GaleriaDto> AddGaleria(GaleriaDto model);
 
-        Task<Galeria> UpdateGaleria(int id, Galeria model);
+        Task<GaleriaDto> UpdateGaleria(int id, GaleriaDto model);
 
         Task<bool> DeleteGaleria(int id);
 
-        Task<Galeria[]> GetAllGaleriasAsync();
+        Task<GaleriaDto[]> GetAllGaleriasAsync();
 
-        Task<Galeria> GetGaleriaByIdAsync(int Id);
+        Task<GaleriaDto> GetGaleriaByIdAsync(int Id);
         
         
     }

@@ -1,15 +1,13 @@
 ﻿
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using gestor.API;
+using gestor.Application.Dtos;
 using gestor.Persistance;
 using GestorGaleria.Application.Contratos;
 using GestorGaleria.Domain;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace gestor.API.Controllers
 {
@@ -45,7 +43,31 @@ namespace gestor.API.Controllers
                 var galerias = _context.Galerias.ToArray();
                 if(galerias == null) return NotFound("Nenhuma galeria encontrada");
 
+               /*  var galeriasRetorno = new List<GaleriaDto>();
+
+                foreach (var galeria in galerias) 
+                {
+                    galeriasRetorno.Add(new GaleriaDto()
+                    {
+                        Id = galeria.Id,
+                        Concessao = galeria.Concessao,
+                        Gallery = galeria.Gallery,
+                        Descricao = galeria.Descricao,
+                        DataAtualizacao = galeria.DataAtualizacao,
+                        Elaborador = galeria.Elaborador,
+                        QtdFotos = galeria.QtdFotos,
+                        ImagemURL = galeria.ImagemURL
+                  
+                    });
+                    }
+                    
+                 */
+                
+
                 return Ok(galerias);
+
+
+                
             }
             catch (Exception ex)
             {
@@ -76,7 +98,7 @@ namespace gestor.API.Controllers
         
 
         [HttpPost]
-        public async Task<IActionResult> Post(Galeria model)
+        public async Task<IActionResult> Post(GaleriaDto model)
         {
             try {
                 var galeria = await _galeriaService.AddGaleria(model);
@@ -97,7 +119,7 @@ namespace gestor.API.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Put(Galeria model)
+        public async Task<IActionResult> Put(Galeria model) /* So funciona com domain */
         {
             try {
 
@@ -110,7 +132,7 @@ namespace gestor.API.Controllers
                 _context.SaveChanges();
                 
 
-                return Ok(model);
+                return Ok(model);     /*duvida nesse (model) */
             }
             catch (Exception ex)
             {

@@ -6,9 +6,14 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\GestorGaleria.Domain\GestorGaleria.Domain.csproj" />
-    
+
+    <ProjectReference Include="..\GestorGaleria.Domain\GestorGaleria.Domain.csproj" />  
     <ProjectReference Include="..\GestorGaleria.Persistence\GestorGaleria.Persistence.csproj" />
   
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
   </ItemGroup>
 </Project>

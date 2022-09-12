@@ -17,6 +17,7 @@ using GestorGaleria.Application;
 using GestorGaleria.Application.Contratos;
 using GestorGaleria.Persistence.Contratos;
 using GestorGaleria.Persistence;
+using AutoMapper;
 
 namespace gestor.API
 {
@@ -49,6 +50,8 @@ namespace gestor.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "gestor.API", Version = "v1" });
             });
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
