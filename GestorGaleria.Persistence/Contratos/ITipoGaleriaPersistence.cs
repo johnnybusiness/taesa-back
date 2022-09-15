@@ -12,8 +12,13 @@ namespace GestorGaleria.Persistence.Contratos
     {
         // TipoGaleria
 
-        Task<Tipos[]> GetAllTiposByIdAsync(int Id);
-        Task<Tipos[]> GetAllTiposDeGaleriaAsync(string descricao);
-        
+        Task<Tipos[]> GetAllTiposByIdAsync(int id);
+        Task<Tipos[]> GetAllTiposDeGaleriaAsync();
+        /*  Task GetTipoGaleriaByIdAsync(int tipoGaleriaId);  */
+
+        Task<bool> DeleteTipoGaleria(int tipoGaleriaId);
+        Task GetTipoGaleriaByIdAsync(int tipoGaleriaId);
+        Task<Tipos> GetTipoGaleriaByIdAsync(object id);
+        Task<Tipos> GetTipoGaleriaByIdAsync(int id, bool v);
     }
 }

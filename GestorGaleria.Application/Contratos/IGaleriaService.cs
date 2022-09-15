@@ -13,9 +13,9 @@ namespace GestorGaleria.Application.Contratos
         Task<bool> DeleteGaleria(int id);
 
         Task<GaleriaDto[]> GetAllGaleriasAsync();
-
-        Task<GaleriaDto> GetGaleriaByIdAsync(int Id);
-        
-        
+        Task GetGaleriaByIdAsync(int galeriaId, bool v);
+        Task UpdateGaleria(int galeriaId, Galeria galeria);
+        Task GetGaleriaByIdAsync(int galeriaId);
+        Task GetGaleriasByIdAsync(int galeriaId);
     }
 }

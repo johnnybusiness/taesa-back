@@ -31,27 +31,57 @@ namespace GestorGaleria.Application
         public async Task<GaleriaDto> AddGaleria(GaleriaDto model)
         {
 
-            return null;
+            /*  return null; */
 
-            /* try{
-                _geralPersistence.Add<Galeria>(model);
-                if(await _geralPersistence.SaveChangesAsync()){
-                    return await _galeriaPersistence.GetGaleriasByIdAsync(model.Id);
+             try
+             {
+                var galeria = _mapper.Map<Galeria>(model);
+
+                _geralPersistence.Add<Galeria>(galeria);
+                if(await _geralPersistence.SaveChangesAsync())
+                {
+                    var retorno = await _galeriaPersistence.GetGaleriasByIdAsync(galeria.Id);
+                    
+                    return _mapper.Map<GaleriaDto>(retorno);
                 }
                 return null;
             }
             catch(Exception ex){
                 throw new Exception(ex.Message);
-            } */
+            } 
         }
 
          public async Task<GaleriaDto> UpdateGaleria(int id, GaleriaDto model)
         {
 
-            return null;
+            try {
+                var galeria = await _galeriaPersistence.GetGaleriasByIdAsync(id);
+                if(galeria == null) return null;
+
+                model.Id = galeria.Id;
+
+                _mapper.Map(model, galeria);
+
+                _geralPersistence.Update(galeria);
+
+                if(await _geralPersistence.SaveChangesAsync())
+                {
+                    var retorno = await _galeriaPersistence.GetGaleriasByIdAsync(galeria.Id);
+                    return _mapper.Map<GaleriaDto>(retorno);
+                }
+                return null;
+            }
+            catch (Exception ex){
+                throw new Exception(ex.Message);
+            }
+
+        }
 
 
-            /* try {
+            /* return null; */
+
+
+             /* try {
                 var galeria = await _galeriaPersistence.GetGaleriasByIdAsync(id);
                 if(galeria == null) return null;
 
@@ -65,8 +95,8 @@ namespace GestorGaleria.Application
             }
             catch(Exception ex){
                 throw new Exception(ex.Message);
-            } */
-        }
+            }  */
+        
 
         public async Task<bool> DeleteGaleria(int id)
         {
@@ -104,6 +134,8 @@ namespace GestorGaleria.Application
                 throw new Exception(ex.Message);
             }
         }
+
+        /*############ GetGaleriasByIdAsync #############*/
             public async Task<GaleriaDto> GetGaleriasByIdAsync(int id)
         {
             try {
@@ -121,6 +153,25 @@ namespace GestorGaleria.Application
             }
         }
 
+        public async Task<GaleriaDto> GetGaleriaByIdAsync(int id)
+        {
+            try {
+                var galeria = await _galeriaPersistence.GetGaleriasByIdAsync(id);
+                if(galeria == null) return null;
+
+                var resultado = _mapper.Map<GaleriaDto>(galeria);
+                
+                return resultado;
+            }
+
+            catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+
+
 
 //Interface
         public Task<GaleriaDto> UpdateGaleria(int id)
@@ -135,19 +186,32 @@ namespace GestorGaleria.Application
             throw new NotImplementedException();
         }
 
-        public Task<GaleriaDto> GetGaleriaByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
 
         Task<GaleriaDto[]> IGaleriaService.GetAllGaleriasAsync()
         {
             throw new NotImplementedException();
         }
+
+        public Task GetGaleriaByIdAsync(int galeriaId, bool v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateGaleria(int galeriaId, Galeria galeria)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IGaleriaService.GetGaleriaByIdAsync(int galeriaId)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IGaleriaService.GetGaleriasByIdAsync(int galeriaId)
+        {
+            throw new NotImplementedException();
+        }
         // End of interface
-
-
-
 
 
     }

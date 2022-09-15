@@ -13,6 +13,7 @@ namespace gestor.API.Helpers
         public GaleriasProfile()
         {
             CreateMap<Galeria, GaleriaDto>();
+            CreateMap<GaleriaDto, Galeria>();
            
         }
     }

@@ -6544,6 +6544,8 @@
     "net5.0": [
       "EntityFramework >= 6.4.4",
       "GestorGaleria.Application >= 1.0.0",
+      "GestorGaleria.Domain >= 1.0.0",
+      "GestorGaleria.Persistence >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.1",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.1",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.17",
@@ -6589,6 +6591,12 @@
           "projectReferences": {
             "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Application\\GestorGaleria.Application.csproj": {
               "projectPath": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Application\\GestorGaleria.Application.csproj"
+            },
+            "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj": {
+              "projectPath": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj"
+            },
+            "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Persistence\\GestorGaleria.Persistence.csproj": {
+              "projectPath": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Persistence\\GestorGaleria.Persistence.csproj"
             }
           }
         }

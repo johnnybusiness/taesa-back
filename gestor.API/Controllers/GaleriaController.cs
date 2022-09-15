@@ -8,6 +8,7 @@ using GestorGaleria.Application.Contratos;
 using GestorGaleria.Domain;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace gestor.API.Controllers
 {
@@ -40,9 +41,17 @@ namespace gestor.API.Controllers
             
              try {
                 // var galerias = await _galeriaService.GetAllGaleriasAsync();
-                var galerias = _context.Galerias.ToArray();
+                var galerias = await _context.Galerias.ToArrayAsync();
                 if(galerias == null) return NotFound("Nenhuma galeria encontrada");
 
+                 return Ok(galerias);
+
+
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco de dados falhou GET. {ex.Message}");
+            }
                /*  var galeriasRetorno = new List<GaleriaDto>();
 
                 foreach (var galeria in galerias) 
@@ -62,17 +71,6 @@ namespace gestor.API.Controllers
                     }
                     
                  */
-                
-
-                return Ok(galerias);
-
-
-                
-            }
-            catch (Exception ex)
-            {
-                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco de dados falhou GET. {ex.Message}");
-            }
 
              /* return _context.Galerias;  */
              
@@ -84,7 +82,7 @@ namespace gestor.API.Controllers
         {
             try {
             //    var galeria = await _galeriaService.GetGaleriaByIdAsync(id);
-                  var galeria =  _context.Galerias.Where(g => g.Id == id).First();
+                  var galeria = await  _context.Galerias.Where(g => g.Id == id).FirstAsync();
                 if(galeria == null) return NoContent();
 
                 return Ok(galeria);
@@ -118,12 +116,44 @@ namespace gestor.API.Controllers
              
         }
 
+
+
+        /*######### DÚVIDA SOBRE UPLOAD IMAGE, MESMO ESTANDO IGUAL AO DO CURSO ESTA DANDO ERRO DE VOID ##############*/
+
+         /*  [HttpPost("upload-image/{galeriaId}")]
+        public async Task<IActionResult> UploadImage(int galeriaId)
+        {
+            try {
+                var galeria = await _galeriaService.GetGaleriaByIdAsync(galeriaId);
+                if(galeria == null) return NoContent();
+
+                var file = Request.Form.Files[0];
+                if (file.Length > 0)
+                {
+                    // DeleteImage(galeria.ImagemURL);
+                    //galeria.ImagemURL = SaveImage(file);
+                }
+                var GaleriaRetorno = await _galeriaService.UpdateGaleria(galeriaId, galeria);
+
+                return Ok(GaleriaRetorno);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Erro ao tentar adicionar galeria. Erro {ex.Message}");
+            }
+             
+        }    */
+        
+        
+
+       
+
         [HttpPut]
         public async Task<IActionResult> Put(Galeria model) /* So funciona com domain */
         {
             try {
 
-                var galeria =  _context.Galerias.Where(g => g.Id == model.Id).First();
+                var galeria =  await _context.Galerias.Where(g => g.Id == model.Id).FirstAsync();
 
                 if(galeria == null) 
                     return NotFound("Galeria não cadastrada / não existente");

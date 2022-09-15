@@ -34,6 +34,12 @@
             "projectReferences": {
               "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Application\\GestorGaleria.Application.csproj": {
                 "projectPath": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Application\\GestorGaleria.Application.csproj"
+              },
+              "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj": {
+                "projectPath": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj"
+              },
+              "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Persistence\\GestorGaleria.Persistence.csproj": {
+                "projectPath": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Persistence\\GestorGaleria.Persistence.csproj"
               }
             }
           }

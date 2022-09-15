@@ -28,6 +28,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GestorGaleria.Application\GestorGaleria.Application.csproj" />
+    <ProjectReference Include="..\GestorGaleria.Domain\GestorGaleria.Domain.csproj" />
+    <ProjectReference Include="..\GestorGaleria.Persistence\GestorGaleria.Persistence.csproj" />
+    
   </ItemGroup>
 
 </Project>

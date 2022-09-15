@@ -18,6 +18,9 @@ using GestorGaleria.Application.Contratos;
 using GestorGaleria.Persistence.Contratos;
 using GestorGaleria.Persistence;
 using AutoMapper;
+using System.IO;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.AspNetCore.Http;
 
 namespace gestor.API
 {
@@ -44,6 +47,9 @@ namespace gestor.API
             services.AddScoped<IGaleriaService, GaleriaService>();
             services.AddScoped<IGeralPersistence, GeralPersistence>();
             services.AddScoped<IGestorGaleriaPersistence, GestorGaleriaPersistence>();
+            services.AddScoped<ITipoGaleriaService, TipoGaleriaService>();
+            services.AddScoped<ITipoGaleriaPersistence, TipoGaleriaPersistence>();
+
 
             services.AddCors();
             services.AddSwaggerGen(c =>
@@ -51,7 +57,11 @@ namespace gestor.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "gestor.API", Version = "v1" });
             });
 
-            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+             services.AddAutoMapper(typeof(Startup)); 
+
+           services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            
+        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -70,6 +80,18 @@ namespace gestor.API
 
             app.UseAuthorization();
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+            /* app.UseStaticFiles(new StaticFileOptions() {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Resources")),
+                RequestPath = new PathString("/Resources")
+            }); */
+
+            app.UseStaticFiles(new StaticFileOptions() {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Resources")),
+                RequestPath = new PathString("/Resources")
+            });
+
+
 
             app.UseEndpoints(endpoints =>
             {
