@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "235uJtt3xXOz46BZTRrXQaBHrm/n3Yla2v08Rn0i4drXH83Y6vjyuwLd2zvdd/l1k1NeCDlmR9YG555kCcPzqg==",
+  "dgSpecHash": "n08HJvBtnNq/ySjFfkZsx1Naw4s1gU+W2ohOwtu1JqpC38U1YOe+Rz0pP6C8gCwQmEMnbcu4vxD9c7tLckVYBA==",
   "success": true,
-  "projectFilePath": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Application\\GestorGaleria.Application.csproj",
+  "projectFilePath": "E:\\Projeto Taesa Official\\Back-repo\\taesa-back\\GestorGaleria.Application\\GestorGaleria.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johnn\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\johnn\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

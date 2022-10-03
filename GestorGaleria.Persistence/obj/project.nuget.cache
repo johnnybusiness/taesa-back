@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wb2GRC2ydmWObU+/ks/cWTKgnLYmWEPXpt2xOF6QdPa6DoK+aEuOB1wnE+JGTpRpcw/pQBZaeRXdM64WPOMZrQ==",
+  "dgSpecHash": "HYhmUTEvp9jJhAmEx1FycjrgBmuJWiaBa157wMj9+/odIZQRq/aJLKT7CPWzTscsmPex8lSrUeaNOHMeWL0nAQ==",
   "success": true,
-  "projectFilePath": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Persistence\\GestorGaleria.Persistence.csproj",
+  "projectFilePath": "E:\\Projeto Taesa Official\\Back-repo\\taesa-back\\GestorGaleria.Persistence\\GestorGaleria.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johnn\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\johnn\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj": {}
+    "E:\\Projeto Taesa Official\\Back-repo\\taesa-back\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj": {}
   },
   "projects": {
-    "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj": {
+    "E:\\Projeto Taesa Official\\Back-repo\\taesa-back\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj",
+        "projectUniqueName": "E:\\Projeto Taesa Official\\Back-repo\\taesa-back\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj",
         "projectName": "GestorGaleria.Domain",
-        "projectPath": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj",
+        "projectPath": "E:\\Projeto Taesa Official\\Back-repo\\taesa-back\\GestorGaleria.Domain\\GestorGaleria.Domain.csproj",
         "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
-        "outputPath": "E:\\Projeto Taesa Official\\back-taesa\\src\\GestorGaleria.Domain\\obj\\",
+        "outputPath": "E:\\Projeto Taesa Official\\Back-repo\\taesa-back\\GestorGaleria.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

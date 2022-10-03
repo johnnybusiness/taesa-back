@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r3AtvbyRlTNN6PDqfgNQeMDYwEukVcnJffal3sG/YzjhMJH4ekKhnomFjIXr4kGPK7WqgXPoBez8iflhw7L+IQ==",
+  "dgSpecHash": "f+ZXSqstVc6fv3pOcKUHt7+thG1N+iuZYUy5qHsoYq8yaJTCPzoqfBbops9SM5HrpMRQZY9vSBB7NJuHUZENzA==",
   "success": true,
-  "projectFilePath": "E:\\Projeto Taesa Official\\back-taesa\\src\\gestor.API\\gestor.API.csproj",
+  "projectFilePath": "E:\\Projeto Taesa Official\\Back-repo\\taesa-back\\gestor.API\\gestor.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johnn\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\johnn\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
